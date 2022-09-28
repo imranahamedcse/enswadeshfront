@@ -1,0 +1,114 @@
+/* npm run build-css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+    @apply p-2 bg-green-1 font-bold
+}
+.btn-full {
+    @apply border border-gray-4 bg-gray-3 text-gray-2 rounded text-center font-bold w-full py-1
+}
+.btn {
+    @apply border rounded text-center font-bold px-4 py-1
+}
+.btn-active {
+    @apply border bg-green-3 rounded text-center font-bold px-4 py-1
+}
+.btn-disabled {
+    @apply border bg-gray-3 rounded text-center font-bold px-4 py-1 text-gray-2
+}
+
+.input-label {
+    @apply font-semibold
+}
+.input-field {
+    @apply w-full border rounded border-gray-3 px-2 py-1
+}
+.divider {
+    @apply border-t text-gray-3
+}
+
+.is-invalid {
+    @apply border border-red-500
+}
+.error {
+    @apply text-orange-1
+}
+.success {
+    @apply text-green-6
+}
+.warning {
+    @apply text-yellow-2
+}
+.pending {
+    @apply text-blue-1
+}
+
+.error-message {
+    @apply text-orange-1 font-medium
+}
+.require {
+    @apply text-orange-1
+}
+
+
+
+.btn-add {
+    @apply py-1 px-4 bg-orange-1 rounded-full font-semibold text-white flex items-center
+}
+.avatar {
+    @apply w-20 h-20 rounded-full bg-purple-1
+}
+.btn-group {
+    @apply border border-gray-3 px-2 py-1 font-semibold cursor-pointer delay-100
+}
+.btn-border {
+    @apply border border-gray-3 rounded px-4 py-1 font-semibold
+}
+.btn-close {
+    @apply w-full text-right text-2xl text-gray-5
+}
+.divider {
+    @apply border-t border-gray-3
+}
+.h1 {
+    @apply font-bold text-3xl
+}
+.h2 {
+    @apply font-semibold text-2xl
+}
+.h3 {
+    @apply font-semibold text-xl
+}
+.list {
+    @apply bg-white p-4
+}
+.list-items {
+    @apply py-1 font-semibold cursor-pointer px-2 delay-100
+}
+.list-items-center {
+    @apply bg-white flex flex-col items-center p-4
+}
+.search {
+    @apply flex items-center relative
+}
+.search-icon {
+    @apply absolute left-0 ml-3
+}
+.search-input {
+    @apply border border-gray-3 py-1 pl-8 pr-2 rounded-full
+}
+.success-alart {
+    @apply border-2 border-green-6 rounded-md font-semibold text-green-6 py-1 px-6
+}
+.warning-alart {
+    @apply border-2 border-yellow-2 rounded-md font-semibold text-yellow-2 py-1 px-6
+}
+.danger-alart {
+    @apply border-2 border-red-500 rounded-md font-semibold text-red-500 py-1 px-6
+}
+.note {
+    @apply bg-purple-1 text-purple-2 py-1 px-4 rounded-md font-semibold
+}
